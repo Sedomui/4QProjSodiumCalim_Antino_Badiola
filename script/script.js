@@ -1,6 +1,6 @@
 const myQuestions = [
   {
-    question: "1. Ano ang planong inimungkahi ni Simounpara mapabilis ang takbo ng mga bapor na katulad ng Tabo?",
+    question: "1. Ano ang planong inimungkahi ni Simoun para mapabilis ang takbo ng mga bapor na katulad ng Tabo?",
     answers: {
       a: "Ipaganda ang imprastraktura ng mga lawa",
       b: "Bumili ng bagong mga Tabor mula sa mga Tsino",
@@ -99,6 +99,8 @@ function next(){
 
   let choice4 = myQuestions[qstnNo].answers.d;
   document.getElementById("btn4").innerHTML = choice4;
+
+  document.body.style.backgroundColor = "#F6F6F2";
   }
 
 function prev(){
